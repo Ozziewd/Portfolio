@@ -73,3 +73,6 @@ body {
 section {
     background-color:white;
 }
+p {
+    text-decoration: underline;
+}

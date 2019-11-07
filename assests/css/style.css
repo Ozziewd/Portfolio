@@ -76,3 +76,9 @@ section {
 p {
     text-decoration: underline;
 }
+.textarea {
+    resize: none;
+}
+.container {
+    float: left;
+}

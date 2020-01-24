@@ -1,4 +1,4 @@
-.grid-container3 {
+.grid-container2 {
     margin:9% auto;
     width: 60%;
     grid-column-gap: 10px;
@@ -80,7 +80,7 @@
         border-width: medium;
         border-radius: 12px;
     }
-    .footer {
+    /* .footer {
       background-color: grey;
       border-radius: 12px;
       border-style: solid;
@@ -90,4 +90,4 @@
       position: relative;
       top: 50%;
       text-align: center;
-    }
+    } */

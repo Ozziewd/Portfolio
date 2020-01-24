@@ -1,0 +1,16 @@
+.grid-container2 {
+    margin:9% auto;
+    width: 30%;
+    grid-column-gap: 10px;
+    display: grid;
+    background-color: white;
+    border-radius: 12px;
+    border:lightgreen;
+    border-style: solid;
+    border-width: 10px;
+  }
+  .form {
+      background-color: white;
+      width: 30%;
+      margin: 5% auto;
+  }

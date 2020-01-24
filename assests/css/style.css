@@ -14,8 +14,6 @@ body {
     grid-column-gap: 10px;
     position: relative;
     display: grid;
-    border: lightblue;
-    border-style: solid;
     background-color: white;
     margin-top: 01%;
   }
@@ -46,14 +44,15 @@ body {
       grid-row-end:2;
     }
     .grid-container2 {
-      width: 90%;
-      margin: auto;
+      margin:9% auto;
+      width: 70%;
       grid-column-gap: 10px;
-      position: relative;
       display: grid;
-      border: lightblue;
-      border-style: solid;
       background-color: white;
+      border-radius: 12px;
+      border:lightgreen;
+      border-style: solid;
+      border-width: 10px;
     }
     .grid2-1 {
       grid-column-start:1;
@@ -82,7 +81,7 @@ body {
       }
       .grid2-5{
         grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column-end: 3;
         grid-row-start: 4;
         grid-row-end: 5;
 
@@ -108,9 +107,8 @@ body {
       display: inline-block;
     }
     .hover:hover {
-      color: red;
-      background-color: lightgrey;
-
+      color: darkgrey;
+      background-color: rgb(213, 253, 183);
     }
     /* a:visited {
       color: grey;
@@ -118,4 +116,8 @@ body {
     .linkname {
       display: inline-block;
       background-color: lightgreen;
+      color: black;
+    }
+    p {
+      font-size: 25px;
     }

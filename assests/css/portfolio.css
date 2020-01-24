@@ -83,3 +83,9 @@
     .center{
         text-align: center;
     }
+    .title3 {
+        border: darkkhaki;
+        border-style: solid;
+        border-width: medium;
+        border-radius: 12px;
+    }

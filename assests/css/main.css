@@ -7,7 +7,6 @@ body {
     font-size: 18px;
     line-height: 34px;
     background: url("../images/wood.png");
-    color: black;
   }
   .grid-container1 {
     width: 100%;
@@ -21,7 +20,6 @@ body {
     grid-column-end:4;
     grid-row-start:1;
     grid-row-end:2;
-    /* background-color: lightgreen; */
     text-align: center;
     }
     .grid2 {
@@ -51,9 +49,6 @@ body {
       color: darkgrey;
       background-color: rgb(213, 253, 183);
     }
-    /* a:visited {
-      color: grey;
-    } */
     .linkname {
       display: inline-block;
       background-color: lightgreen;
@@ -78,3 +73,124 @@ body {
       margin-top: 25%;
       color: white;
     }
+    @media screen and (max-width:800px){
+      body {
+        margin: auto;
+          font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+          font-size: 14px;
+          line-height: 25px;
+          background: url("../images/wood.png");
+        }
+        .grid-container1 {
+          width: 100%;
+          grid-column-gap: 10px;
+          display: grid;
+          background-color: white;
+          margin-top: 01%;
+        }
+        .grid1 {
+          grid-column-start:2;
+          grid-column-end:4;
+          grid-row-start:1;
+          grid-row-end:2;
+          text-align: center;
+          }
+          .grid2 {
+          grid-column-start:8;
+          grid-column-end:9;
+          grid-row-start:1;
+          grid-row-end:2;
+          }
+          .grid3 {
+            grid-column-start:9;
+            grid-column-end:10;
+            grid-row-start:1;
+            grid-row-end:2;
+          }
+          .grid4 {
+            grid-column-start:10;
+            grid-column-end:12;
+            grid-row-start:1;
+            grid-row-end:2;
+          }
+          .links {
+            color: black;
+            text-decoration: none;
+            display: inline-block;
+          }
+          .hover:hover {
+            color: darkgrey;
+            background-color: rgb(213, 253, 183);
+          }
+          .linkname {
+            display: inline-block;
+            background-color: lightgreen;
+            color: black;
+          }
+          p {
+            font-size: 12px;
+          }
+          .credit{
+            font-size: 16px;
+          }
+          .grid-container3 {
+            background-color: grey;
+            text-align: center;
+            width: 100%;
+            display: grid;
+            border-radius: 12px;
+            border:lightgreen;
+            border-style: solid;
+            border-width: 5px;
+            display: grid;
+            margin-top: 25%;
+            color: white;
+          }
+    }
+    
+
+    
+    @media screen and (max-width:500px){
+      body {
+        margin: auto;
+          font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+          font-size: 09px;
+          line-height: 10px;
+          background: url("../images/wood.png");
+        }
+      .grid-container1 {
+          width: 100%;
+          grid-column-gap: 05px;
+          display: grid;
+          background-color: white;
+          margin-top: 01%;
+        }
+      .grid1 {
+          grid-column-start:2;
+          grid-column-end:4;
+          grid-row-start:1;
+          grid-row-end:2;
+          text-align: center;
+          line-height: 10px;
+          }
+      p {
+            font-size: 07px;
+          }
+      .credit{
+            font-size: 10px;
+            line-height: 15px;
+          }
+      .grid-container3 {
+            background-color: grey;
+            text-align: center;
+            width: 100%;
+            display: grid;
+            border-radius: 12px;
+            border:lightgreen;
+            border-style: solid;
+            border-width: 5px;
+            display: grid;
+            margin-top: 60%;
+            color: white;
+          }
+        }

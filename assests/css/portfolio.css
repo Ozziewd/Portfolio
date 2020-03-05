@@ -1,6 +1,6 @@
 .grid-container2 {
     margin:9% auto;
-    width: 60%;
+    width: 80%;
     grid-column-gap: 10px;
     display: grid;
     background-color: white;
@@ -80,14 +80,39 @@
         border-width: medium;
         border-radius: 12px;
     }
-    /* .footer {
-      background-color: grey;
-      border-radius: 12px;
-      border-style: solid;
-      border-color: lightgreen;
-      color: white;
-      width: 100%;
-      position: relative;
-      top: 50%;
-      text-align: center;
-    } */
+    img{
+      width: 250px;
+      height: 250px;
+    }
+    @media screen and (max-width:800px){
+      .grid-container2 {
+        margin:9% auto;
+        width: 80%;
+      }
+     
+        .title3 {
+            border: darkkhaki;
+            border-style: solid;
+            border-width: medium;
+            border-radius: 12px;
+            font-size: 14px;
+        }
+    }   
+     @media screen and (max-width:690px){
+      .grid-container2 {
+        margin:9% auto;
+        width: 95%;
+      }
+     
+        .title3 {
+            border: darkkhaki;
+            border-style: solid;
+            border-width: medium;
+            border-radius: 12px;
+            font-size: 14px;
+        }
+        img{
+          width: 100px;
+          height: 100px;
+        }
+    }

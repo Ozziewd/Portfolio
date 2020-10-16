@@ -168,5 +168,8 @@
             grid-row-start: 4;
             grid-row-end: 5;
           }
+          .grid-container3 {
+            margin-top: 86.5%;
+          }
       }
 
